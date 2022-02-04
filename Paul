@@ -1,0 +1,16 @@
+  147  ls
+  148  ls AMMI-git
+  149  cd AMMI-git
+  150  touch identity.txt
+  151  nano identity.txt
+  152  head identity.txt
+  153  git init
+  154  git config --list
+  155  git add .
+  156  git status
+  157  git commit -m "This is my first commit"
+  158  ssh-keygen -t rsa -b 2048
+  159  cat ../../.ssh/id_rsa.pub
+  160  git remote add New_Work git@github.com:sanyang12/Git-assignment.git
+  161  git remote -v
+  162  git push -u New_Work master
